@@ -1,0 +1,13 @@
+[package]
+name = "lalrpop_workspace"
+version = "0.1.0"
+authors = ["Kevin Per <kevin.per@protonmail.com>"]
+edition = "2018"
+
+[build-dependencies]
+lalrpop = "0.19.5"
+
+[dependencies]
+foo = { path = "foo" }
+lalrpop-util = "0.19.5"
+regex = "1"
