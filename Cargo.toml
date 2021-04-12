@@ -8,6 +8,9 @@ edition = "2018"
 path = "foo/src/main.rs"
 name = "foo"
 
+[build-dependencies]
+lalrpop = "0.19.5"
+
 [dependencies]
 lalrpop-util = "0.19.5"
 regex = "1"

@@ -1,6 +1,5 @@
-#[macro_use] extern crate lalrpop_util;
-
-lalrpop_mod!(pub calculator1); // synthesized by LALRPOP
+//lalrpop_mod!(pub calculator1); // synthesized by LALRPOP
+pub mod calculator1;
 
 fn main() {
 
